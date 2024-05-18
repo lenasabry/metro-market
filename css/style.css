@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: linear-gradient(179deg, #04247466, transparent),url("../img/Metro_Logo.png");
+    background-repeat: no-repeat ;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+.card {
+    width: 50%;
+    margin: 0 auto;
+    padding: 52px;
+    text-align: center;
+    margin-top: 40px;
+}
+form h1 {
+    font-weight: bolder;
+    font-family: cairo;
+}
+label , input {
+    margin-top: 10px;
+}
+input {
+    text-align: center;
+    font-family: 'Almarai';
+
+}
+
+   @media (max-width:992px) {
+    .card {
+        width: 90%;
+
+    }
+    input{
+        width: 90%
+    }
+}
+.alert {
+    width: 50%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: 121px;
+}
+.card-body {
+    direction: rtl;
+}
+nav.navbar.navbar-expand-lg.bg-body-tertiary{
+        direction: rtl;
+    padding: 27px;
+}
+a.nav-link.active, .nav-link {
+    font-family: Almarai;
+    font-size: 22px;
+    font-weight: 550;
+    margin-right: 23px;
+    color: #002575 !important;
+    transition: 1s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+a.nav-link.active ,  a.nav-link:hover{
+    color: #d60812 !important;
+}
+.carousel-item img {
+    height: 620px;
+}
+footer {
+    background: #c0c0c0cc;
+    width: 100%;
+    border-top: 5px solid #fff;
+    height: 150px;
+}
+
+.block-fxm {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.block-fxm a {
+    background: white;
+
+font-weight: bolder;
+font-family: 'Kufam';
+margin-top: 30px;
+width: 100%;
+height: 50px;
+text-align: center;
+line-height: 50px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card.product {
+    width: 27%;
+}
+@media (max-width:992px) {
+    .card.product {
+        width: 80%;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }   
+}
+textarea {
+    width: 90%;
+    height: 247px;
+}
